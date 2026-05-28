@@ -74,8 +74,8 @@ export const Menu: React.FC = () => {
       <div className="max-w-container-max mx-auto px-margin-mobile md:px-8 lg:px-margin-desktop">
 
         {/* Section Header & Controls */}
-        <div className="flex flex-col md:flex-row justify-between items-end mb-8 lg:mb-stack-lg">
-          <div className="mb-stack-md md:mb-0">
+        <div className="flex flex-col md:flex-row justify-between items-center md:items-end mb-8 lg:mb-stack-lg">
+          <div className="mb-stack-md md:mb-0 text-center md:text-left">
             <span className="font-label-sm text-label-sm text-secondary uppercase tracking-[0.3em] block mb-stack-sm">
               本店優選
             </span>
@@ -134,7 +134,7 @@ export const Menu: React.FC = () => {
                   </div>
 
                   {/* Text Content with animated slide-up */}
-                  <div className="p-8 md:p-8 lg:p-12 flex flex-col justify-center overflow-hidden">
+                  <div className="p-8 md:p-8 lg:p-12 flex flex-col justify-center items-center md:items-start text-center md:text-left overflow-hidden">
                     <div className={`transition-all duration-700 delay-300 transform ${isActive ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'
                       }`}>
                       <h3 className="font-headline-md text-headline-md mb-4 uppercase tracking-wider">
@@ -143,7 +143,7 @@ export const Menu: React.FC = () => {
                       <p className="font-headline-md text-lg mb-8 text-secondary">{slide.subtitle}</p>
 
                       <div className="space-y-4">
-                        <div className="flex items-center gap-4">
+                        <div className="flex flex-col md:flex-row items-center gap-2 md:gap-4">
                           <span className="font-label-sm text-label-sm text-secondary uppercase tracking-widest">Notes</span>
                           <p className="font-body-md text-body-md">{slide.notes}</p>
                         </div>
@@ -153,7 +153,7 @@ export const Menu: React.FC = () => {
                         </p>
                       </div>
 
-                      <button onClick={() => window.open(slide.link, '_blank')} className="mt-12 self-start border-b border-primary pb-1 font-label-md text-label-md uppercase tracking-widest hover:text-secondary hover:border-secondary transition-colors duration-300">
+                      <button onClick={() => window.open(slide.link, '_blank')} className="mt-12 self-center md:self-start border-b border-primary pb-1 font-label-md text-label-md uppercase tracking-widest hover:text-secondary hover:border-secondary transition-colors duration-300">
                         了解更多
                       </button>
                     </div>

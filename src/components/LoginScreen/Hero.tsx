@@ -115,7 +115,7 @@ export const Hero: React.FC = () => {
             height: 'max(56.25vw, 50vh)',
           }}
           src="https://www.youtube.com/embed/MZdBVqdYr5g?autoplay=1&mute=1&loop=1&playlist=MZdBVqdYr5g&controls=0&showinfo=0&rel=0&enablejsapi=1&playsinline=1&iv_load_policy=3&disablekb=1&fs=0&modestbranding=1&vq=hd1080"
-          allow="autoplay; encrypted-media"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           title="Hero Background Video"
           tabIndex={-1}
         />

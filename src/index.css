@@ -35,3 +35,42 @@
   min-width: 100%;
   flex-shrink: 0;
 }
+
+/* 移动端字体统一缩小 2px，优化小屏幕阅读体验 */
+@media (max-width: 767px) {
+  :root {
+    font-size: 14px;
+  }
+
+  .text-label-md {
+    font-size: 12px !important;
+  }
+
+  .text-headline-lg {
+    font-size: 38px !important;
+  }
+
+  .text-body-md {
+    font-size: 14px !important;
+  }
+
+  .text-display-lg {
+    font-size: 62px !important;
+  }
+
+  .text-body-lg {
+    font-size: 16px !important;
+  }
+
+  .text-label-sm {
+    font-size: 10px !important;
+  }
+
+  .text-headline-md {
+    font-size: 22px !important;
+  }
+
+  .text-headline-lg-mobile {
+    font-size: 30px !important;
+  }
+}
