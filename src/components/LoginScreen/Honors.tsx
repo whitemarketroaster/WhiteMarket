@@ -5,19 +5,19 @@ export const Honors: React.FC = () => {
 
   const honors = [
     {
-      title: 'Czech LatteArt Champion 2026',
+      title: '',//Czech LatteArt Champion 2026
       img: '/assets/DSCF9484.webp',
     },
     {
-      title: 'World of coffee San Diego 2026',
+      title: '',
       img: '/assets/DSCF0091.webp',
     },
     {
-      title: 'World of coffee San Diego 2026',
+      title: '',
       img: '/assets/DSCF0023.webp',
     },
     {
-      title: 'World of coffee San Diego 2026',
+      title: '',//World of coffee San Diego 2026
       img: '/assets/DSCF0009.webp',
     },
   ];
